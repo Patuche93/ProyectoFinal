@@ -1,0 +1,54 @@
+:root {
+    --color-1: #322a2a;
+    --color-2: #b89685; 
+    --color-3: #fff0dd; 
+    --color-4: #ef9fff; 
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: var(--color-3);
+}
+
+.titulo-principal {
+    background-color: var(--color-3);
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.menu {
+     position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px var(--color-1);
+  background-color: var(--color-2);
+}
+
+.menu li{
+    display: inline-block;
+    color: var(--color-1);
+    text-decoration: none;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+.menu li:hover{
+      color: var(--color-4);
+  text-decoration: underline;
+}
+.contacto {
+    background-color: var(--color-2);
+    justify-content: center;
+    text-align: center;
+
+}
