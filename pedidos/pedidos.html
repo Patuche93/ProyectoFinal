@@ -23,6 +23,10 @@
       <li><a href="../pedidos/pedidos.html">Realizar Pedido</a></li>
       <li><a href="#contacto">Contactanos</a></li>
     </ul>
+
+        <form class="navbar-busqueda">
+      <input type="search" placeholder="Buscar:" name="q">
+    </form>
   </nav>
 </header>
 
@@ -31,12 +35,14 @@
   <form class="formulario"
         onsubmit="return mostrarAlerta()"
         method="post">
+    
     <label for="nombre">Nombre:</label>
     <input type="text"
            id="nombre"
            name="nombre"
            placeholder="Agregar nombre completo"
            required>
+    
 
     <label for="email">Correo Electrónico:</label>
     <input type="email"
