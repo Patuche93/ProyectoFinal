@@ -79,3 +79,17 @@ main {
     bottom: 0;
     width: 100%;
 }
+
+.navbar-busqueda input[type="search"] {
+  padding: 6px 12px;
+  border: 1px solid var(--color-2);
+  border-radius: 20px;
+  font-size: 0.9rem;
+  background-color: var(--color-3);
+  color: var(--color-1);
+  outline: none;
+}
+
+.navbar-busqueda input[type="search"]::placeholder {
+  color: var(--color-2);
+}
