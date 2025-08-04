@@ -1,3 +1,30 @@
-.principal{
-    text-align: center;
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    gap: 10px;
+}
+
+.formulario input {
+    height: 30px;
+}
+
+.formulario select {
+    height: 30px;
+}
+
+.comentaios {
+    resize: none;
+}
+
+.submit-contenedor {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
