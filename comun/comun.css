@@ -43,6 +43,9 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    padding-right: 10px;
+    box-sizing: border-box;
 }
 
 .menu ul {
