@@ -2,69 +2,107 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../comun/comun.css">
-    <title>Aromélie</title>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+        href="../comun/comun.css">
+  <title>Aromélie</title>
 </head>
 
 <body>
-    <header class="titulo-principal">
-        <h1>Aromélie </h1>
-    </header>
-    <!-- Modifica el navbar en todas las paginas -->
-    <nav class="menu">
-        <ul>
-            <li><a href="../index/index.html">Inicio</a></li>
-            <li><a href="../productos/productos.html">Productos</a></li>
-            <li><a href="../pedidos/pedidos.html">Realizar Pedido</a></li>
-            <li><a href="#contacto">Contactanos</a></li>
-        </ul>
-    </nav>
+<header class="header-menu">
+  <h1 class="titulo-principal">Aromélie</h1>
+  <!-- Modifica el navbar en todas las paginas -->
+  <nav class="menu">
+    <ul>
+      <li><a href="../index/index.html">Inicio</a></li>
+      <li><a href="../productos/productos.html">Productos</a></li>
+      <li><a href="../pedidos/pedidos.html">Realizar Pedido</a></li>
+      <li><a href="#contacto">Contactanos</a></li>
+    </ul>
+  </nav>
+</header>
 
-    <main class="principal">
-        <h2 class="titulo-Formulario">Formulario de Pedido</h2>
-        <form class="formulario" action="procesar_pedido.php" method="post">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
+<main class="principal">
+  <h2 class="titulo-Formulario">Formulario de Pedido</h2>
+  <form class="formulario"
+        action="procesar_pedido.php"
+        method="post">
+    <label for="nombre">Nombre:</label>
+    <input type="text"
+           id="nombre"
+           name="nombre"
+           required>
 
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required>
+    <label for="email">Correo Electrónico:</label>
+    <input type="email"
+           id="email"
+           name="email"
+           required>
 
-            <label for="telefono">Telefono:</label>
-            <input type="number" id="telefono" name="telefono" >
+    <label for="telefono">Telefono:</label>
+    <input type="number"
+           id="telefono"
+           name="telefono">
 
-            <label for="aroma">Seccion de aroma:</label>
-            <select id="aroma" name="aroma" required>
-                <option value="lavanda">Lavanda</option>
-                <option value="canela">canela</option>
-                <option value="vainilla">vainilla</option>
-                <option value="citricos">Citricos</option>
-            </select>
+    <label for="aroma">Seccion de aroma:</label>
+    <select id="aroma"
+            name="aroma"
+            required>
+      <option value="lavanda">Lavanda</option>
+      <option value="canela">canela</option>
+      <option value="vainilla">vainilla</option>
+      <option value="citricos">Citricos</option>
+    </select>
 
-            <label for="presentacion">Tipo de presentacion:</label>
-            <select id="presentacion" name="presentacion" required>
-                <option value="flores">flores</option>
-                <option value="velasP">velas pequeñas</option>
-                <option value="velasG">velas grandes</option>
-                <option value="animales">velas de animales</option>
-            </select>
+    <label for="presentacion">Tipo de presentacion:</label>
+    <select id="presentacion"
+            name="presentacion"
+            required>
+      <option value="flores">flores</option>
+      <option value="velasP">velas pequeñas</option>
+      <option value="velasG">velas grandes</option>
+      <option value="animales">velas de animales</option>
+    </select>
 
-            <label for="cantidad">Cantidad:</label>
-            <input type="number" id="cantidad" name="cantidad" min="1" required>
+    <label for="cantidad">Cantidad:</label>
+    <input type="number"
+           id="cantidad"
+           name="cantidad"
+           min="1"
+           required>
 
-                <label for="comentarios">Comentarios:</label>
-                <input type="text">
-            <button type="submit">Realizar Pedido</button>
+    <label for="comentarios">Comentarios:</label>
+    <input type="text">
+    <button type="submit">Realizar Pedido</button>
 
-    </main>
+</main>
 
-    <footer class="contacto" id="contacto">
-            <a href="https://facebook.com/aromelie">Facebook</a>
-      <a href="https://instagram.com/aromelie">Instagram</a>
-      <a href="https://www.tiktok.com/@aromelie">Tiktok</a>
-      <a href="https://wa.me/59171400732">WhatsApp</a>
-    </footer>
+<footer class="contacto"
+        id="contacto">
+  <a href="https://facebook.com/aromelie">
+    <img src="../images/facebook1.png"
+         alt="facebook"
+         width="50px"
+         height="50px"></a>
+
+  <a href="https://instagram.com/aromelie">
+    <img src="../images/instagram1.png"
+         alt="instagram"
+         width="50px"
+         height="50px"></a>
+  <a href="https://www.tiktok.com/@aromelie">
+    <img src="../images/tiktok1.png"
+         alt="tiktok"
+         width="50px"
+         height="50px"></a>
+  <a href="https://wa.me/59171400732">
+    <img src="../images/whatsapp1.png"
+         alt="whatsapp"
+         width="50px"
+         height="50px"></a>
+</footer>
 
 </body>
 
